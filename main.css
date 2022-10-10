@@ -2,5 +2,40 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: linear-gradient(hsla(120, 100%, 50%, 1.0), hsla(240, 100%, 50%, 1.0));
+    background-color: aqua;
+    /* background-image: linear-gradient(to right, hsla(120, 100%, 50%, 1.0), hsla(240, 100%, 50%, 1.0)); */
+    font-size: 1.5em;
+    font-family: sans-serifs;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 3px solid yellow;
+    height: 20vh;
+    width: 45vh;
+    margin: 0 10em;
+}
+.quotes{
+    background-color: yellowgreen;
+    margin: 20px;
+    width: 60%;
+}
+.persons{
+    background-color: yellow;
+    margin: 20px;
+    width: 60%;
+}
+button{
+    color: goldenrod;
+    background-color: black;
+    height: 1.25em;
+    width: 4.5em;
+}
+button:hover{
+    background-color: goldenrod;
+    color: black;
 }
